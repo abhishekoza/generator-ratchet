@@ -4,4 +4,3 @@ node_js:
 before_install:
   - currentfolder=${PWD##*/}
   - if [ "$currentfolder" != 'generator-ratchet' ]; then cd .. && eval "mv $currentfolder generator-ratchet" && cd generator-ratchet; fi
-
