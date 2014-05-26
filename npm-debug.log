@@ -1,0 +1,126 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/home/elts2/local/bin/npm', 'publish' ]
+2 info using npm@1.4.10
+3 info using node@v0.10.28
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /home/elts2/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/home/elts2/tmp/npm-17069-2Ckf9N3k/1401121136899-0.48685293388552964/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /home/elts2/tmp/npm-17069-2Ckf9N3k/1401121136899-0.48685293388552964/tmp.tgz
+12 verbose folder .
+13 info prepublish generator-ratchet@0.1.0
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /home/elts2/.npm/1f1177db-tar.lock
+16 silly lockFile b123f02e-6899-0-48685293388552964-tmp-tgz tar:///home/elts2/tmp/npm-17069-2Ckf9N3k/1401121136899-0.48685293388552964/tmp.tgz
+17 verbose lock tar:///home/elts2/tmp/npm-17069-2Ckf9N3k/1401121136899-0.48685293388552964/tmp.tgz /home/elts2/.npm/b123f02e-6899-0-48685293388552964-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile b123f02e-6899-0-48685293388552964-tmp-tgz tar:///home/elts2/tmp/npm-17069-2Ckf9N3k/1401121136899-0.48685293388552964/tmp.tgz
+21 silly lockFile b123f02e-6899-0-48685293388552964-tmp-tgz tar:///home/elts2/tmp/npm-17069-2Ckf9N3k/1401121136899-0.48685293388552964/tmp.tgz
+22 verbose tar unpack /home/elts2/tmp/npm-17069-2Ckf9N3k/1401121136899-0.48685293388552964/tmp.tgz
+23 silly lockFile aebafb2d--generator-ratchet-0-1-0-package tar:///home/elts2/.npm/generator-ratchet/0.1.0/package
+24 verbose lock tar:///home/elts2/.npm/generator-ratchet/0.1.0/package /home/elts2/.npm/aebafb2d--generator-ratchet-0-1-0-package.lock
+25 silly lockFile b123f02e-6899-0-48685293388552964-tmp-tgz tar:///home/elts2/tmp/npm-17069-2Ckf9N3k/1401121136899-0.48685293388552964/tmp.tgz
+26 verbose lock tar:///home/elts2/tmp/npm-17069-2Ckf9N3k/1401121136899-0.48685293388552964/tmp.tgz /home/elts2/.npm/b123f02e-6899-0-48685293388552964-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+30 silly gunzTarPerm extractEntry README.md
+31 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+32 silly gunzTarPerm extractEntry app/index.js
+33 silly gunzTarPerm modified mode [ 'app/index.js', 436, 420 ]
+34 silly gunzTarPerm extractEntry app/templates/gulpfile.js
+35 silly gunzTarPerm modified mode [ 'app/templates/gulpfile.js', 436, 420 ]
+36 silly gunzTarPerm extractEntry app/templates/gitignore
+37 silly gunzTarPerm modified mode [ 'app/templates/gitignore', 436, 420 ]
+38 silly gunzTarPerm extractEntry app/templates/_package.json
+39 silly gunzTarPerm extractEntry app/templates/bowerrc
+40 silly gunzTarPerm modified mode [ 'app/templates/bowerrc', 436, 420 ]
+41 silly gunzTarPerm extractEntry app/templates/editorconfig
+42 silly gunzTarPerm extractEntry app/templates/favicon.ico
+43 silly gunzTarPerm modified mode [ 'app/templates/favicon.ico', 436, 420 ]
+44 silly gunzTarPerm extractEntry app/templates/gitattributes
+45 silly gunzTarPerm modified mode [ 'app/templates/gitattributes', 436, 420 ]
+46 silly gunzTarPerm extractEntry app/templates/_bower.json
+47 silly gunzTarPerm extractEntry app/templates/404.html
+48 silly gunzTarPerm modified mode [ 'app/templates/404.html', 436, 420 ]
+49 silly gunzTarPerm extractEntry app/templates/htaccess
+50 silly gunzTarPerm modified mode [ 'app/templates/htaccess', 436, 420 ]
+51 silly gunzTarPerm extractEntry app/templates/index.html
+52 silly gunzTarPerm modified mode [ 'app/templates/index.html', 436, 420 ]
+53 silly gunzTarPerm extractEntry app/templates/jshintrc
+54 silly gunzTarPerm extractEntry app/templates/main.css
+55 silly gunzTarPerm modified mode [ 'app/templates/main.css', 436, 420 ]
+56 silly gunzTarPerm extractEntry app/templates/main.scss
+57 silly gunzTarPerm modified mode [ 'app/templates/main.scss', 436, 420 ]
+58 silly gunzTarPerm extractEntry app/templates/robots.txt
+59 silly gunzTarPerm modified mode [ 'app/templates/robots.txt', 436, 420 ]
+60 silly lockFile aebafb2d--generator-ratchet-0-1-0-package tar:///home/elts2/.npm/generator-ratchet/0.1.0/package
+61 silly lockFile aebafb2d--generator-ratchet-0-1-0-package tar:///home/elts2/.npm/generator-ratchet/0.1.0/package
+62 silly lockFile b123f02e-6899-0-48685293388552964-tmp-tgz tar:///home/elts2/tmp/npm-17069-2Ckf9N3k/1401121136899-0.48685293388552964/tmp.tgz
+63 silly lockFile b123f02e-6899-0-48685293388552964-tmp-tgz tar:///home/elts2/tmp/npm-17069-2Ckf9N3k/1401121136899-0.48685293388552964/tmp.tgz
+64 silly lockFile 3a52ce78- .
+65 silly lockFile 3a52ce78- .
+66 silly publish { name: 'generator-ratchet',
+66 silly publish   version: '0.1.0',
+66 silly publish   description: 'Build mobile apps with simple HTML‚ CSS‚ and JS components.',
+66 silly publish   license: 'MIT',
+66 silly publish   main: 'app/index.js',
+66 silly publish   repository:
+66 silly publish    { type: 'git',
+66 silly publish      url: 'git://github.com/abhishekoza/generator-rivets' },
+66 silly publish   author:
+66 silly publish    { name: 'Abhishek Oza',
+66 silly publish      email: 'abhishekoza@gmail.com',
+66 silly publish      url: 'https://github.com/abhishekoza' },
+66 silly publish   engines: { node: '>=0.10.0' },
+66 silly publish   scripts: { test: 'mocha' },
+66 silly publish   files: [ 'app' ],
+66 silly publish   keywords:
+66 silly publish    [ 'yeoman-generator',
+66 silly publish      'ratchet',
+66 silly publish      'web',
+66 silly publish      'app',
+66 silly publish      'front-end',
+66 silly publish      'h5bp',
+66 silly publish      'modernizr',
+66 silly publish      'jquery',
+66 silly publish      'gulp' ],
+66 silly publish   dependencies:
+66 silly publish    { 'yeoman-generator': '~0.16.0',
+66 silly publish      chalk: '~0.4.0',
+66 silly publish      yosay: '^0.1.0',
+66 silly publish      wiredep: '^1.4.3' },
+66 silly publish   devDependencies: { mocha: '*' },
+66 silly publish   peerDependencies: { yo: '>=1.0.0', gulp: '>=3.5.0' },
+66 silly publish   readme: '# generator-ratchet [![Build Status](https://secure.travis-ci.org/abhishekoza/generator-ratchet.png?branch=master)](https://travis-ci.org/abhishekoza/generator-ratchet)\n\n# Build mobile websites for IOS and Android with simple HTML‚ CSS‚ and JS components.\n\n> [Yeoman](http://yeoman.io) generator\n\n\n## Getting Started\n\n### What is Yeoman?\n\nTrick question. It\'s not a thing. It\'s this guy:\n\n![](http://i.imgur.com/JHaAlBJ.png)\n\nBasically, he wears a top hat, lives in your computer, and waits for you to tell him what kind of application you wish to create.\n\nNot every new computer comes with a Yeoman pre-installed. He lives in the [npm](https://npmjs.org) package repository. You only have to ask for him once, then he packs up and moves into your hard drive. *Make sure you clean up, he likes new and shiny things.*\n\n```bash\n$ npm install -g yo\n```\n\n### Yeoman Generators\n\nYeoman travels light. He didn\'t pack any generators when he moved in. You can think of a generator like a plug-in. You get to choose what type of application you wish to create, such as a Backbone application or even a Chrome extension.\n\nTo install generator-ratchet from npm, run:\n\n```bash\n$ npm install -g generator-ratchet\n```\n\nFinally, initiate the generator:\n\n```bash\n$ yo ratchet\n```\n\n### Getting To Know Yeoman\n\nYeoman has a heart of gold. He\'s a person with feelings and opinions, but he\'s very easy to work with. If you think he\'s too opinionated, he can be easily convinced.\n\nIf you\'d like to get to know Yeoman better and meet some of his friends, [Grunt](http://gruntjs.com) and [Bower](http://bower.io), check out the complete [Getting Started Guide](https://github.com/yeoman/yeoman/wiki/Getting-Started).\n\n\n## License\n\nMIT\n',
+66 silly publish   readmeFilename: 'README.md',
+66 silly publish   bugs: { url: 'https://github.com/abhishekoza/generator-rivets/issues' },
+66 silly publish   homepage: 'https://github.com/abhishekoza/generator-rivets',
+66 silly publish   _id: 'generator-ratchet@0.1.0',
+66 silly publish   _shasum: '6671cfe05ffac1ca0cbf5d5216ee0dbca96de7fa',
+66 silly publish   _from: '.' }
+67 error need auth auth and email required for publishing
+67 error need auth You need to authorize this machine using `npm adduser`
+68 error System Linux 3.5.0-49-generic
+69 error command "node" "/home/elts2/local/bin/npm" "publish"
+70 error cwd /home/elts2/projects/generator-ratchet
+71 error node -v v0.10.28
+72 error npm -v 1.4.10
+73 error code ENEEDAUTH
+74 verbose exit [ 1, true ]

@@ -1,0 +1,46 @@
+{
+  "name": "generator-ratchet",
+  "version": "0.1.0",
+  "description": "Build mobile apps with simple HTML‚ CSS‚ and JS components.",
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": "abhishekoza/generator-rivets",
+  "author": {
+    "name": "Abhishek Oza",
+    "email": "abhishekoza@gmail.com",
+    "url": "https://github.com/abhishekoza"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator",
+    "ratchet",
+    "web",
+    "app",
+    "front-end",
+    "h5bp",
+    "modernizr",
+    "jquery",
+    "gulp"
+  ],
+  "dependencies": {
+    "yeoman-generator": "~0.16.0",
+    "chalk": "~0.4.0",
+    "yosay": "^0.1.0",
+    "wiredep": "^1.4.3"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0",
+    "gulp": ">=3.5.0"
+  }
+}
