@@ -20,10 +20,9 @@ Run `yo ratchet`
 yo ratchet
 ```
 
-Follow the prompt to select if you want to use sass for css and pick a starter template, then spin up a `connect` server with `watch` and `livereload` for developing in your browser
+Follow the prompt to select if you want to use sass for css, then spin up a `connect` server with `watch` and `livereload` for developing in your browser
 ```
 gulp watch
-
 ```
  When you're ready to push the app to production, the following gulp task will help us in building all our assets & creating a "dist" directory which will contain our build code.
 ```
