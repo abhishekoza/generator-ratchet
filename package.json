@@ -4,7 +4,7 @@
   "description": "Build mobile apps with simple HTML‚ CSS‚ and JS components.",
   "license": "MIT",
   "main": "app/index.js",
-  "repository": "abhishekoza/generator-rivets",
+  "repository": "abhishekoza/generator-ratchet",
   "author": {
     "name": "Abhishek Oza",
     "email": "abhishekoza@gmail.com",
