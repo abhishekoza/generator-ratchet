@@ -139,7 +139,6 @@ var RatchetGenerator = yeoman.generators.Base.extend({
         wiredep({
           bowerJson: bowerJson,
           directory: 'bower_components',
-          exclude: ['bootstrap-sass'],
           src: 'app/index.html'
         });
 

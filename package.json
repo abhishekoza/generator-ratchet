@@ -1,6 +1,6 @@
 {
   "name": "generator-ratchet",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Build mobile apps with simple HTML‚ CSS‚ and JS components.",
   "license": "MIT",
   "main": "app/index.js",
@@ -11,10 +11,11 @@
     "url": "https://github.com/abhishekoza"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=0.10.0",
+    "npm": ">=1.2.10"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --reporter spec"
   },
   "files": [
     "app"
@@ -31,16 +32,16 @@
     "gulp"
   ],
   "dependencies": {
-    "yeoman-generator": "~0.16.0",
-    "chalk": "~0.4.0",
-    "yosay": "^0.1.0",
-    "wiredep": "^1.4.3"
-  },
-  "devDependencies": {
-    "mocha": "*"
+    "yeoman-generator": "^0.17.0",
+    "cheerio": "^0.16.0",
+    "chalk": "^0.4.0",
+    "yosay": "^0.2.0"
   },
   "peerDependencies": {
     "yo": ">=1.0.0",
-    "gulp": ">=3.5.0"
+    "generator-mocha": ">=0.1.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
   }
 }
