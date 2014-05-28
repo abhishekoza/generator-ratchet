@@ -155,4 +155,5 @@ var RatchetGenerator = yeoman.generators.Base.extend({
     });
   }
 });
+//require('util').inherits(RatchetGenerator, yeoman.generators.Base);
 module.exports = RatchetGenerator;

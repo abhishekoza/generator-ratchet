@@ -11,7 +11,10 @@ describe('ratchet generator', function () {
       }
 
       this.app = helpers.createGenerator('ratchet:app', [
-        '../../app'
+        '../../app', [
+          helpers.createDummyGenerator(),
+          'mocha:app'
+        ]
       ]);
       done();
     }.bind(this));
